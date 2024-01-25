@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prueba">
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Psicotécnico musical"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".opciones"
+            android:label="Opciones"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".opcionesHighScore"
+            android:label="Opciones"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tempo_HighScore"
+            android:label="Ritmo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Resultados"
+            android:label="Resultados"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Clasificacion"
+            android:label="Clasificación"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Informacion"
+            android:label="Informacion"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".tempo_1jugador"
+            android:label="Ritmo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tempo_2jugadores"
+            android:label="Ritmo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tempo_3jugadores"
+            android:label="Ritmo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tempo_4jugadores"
+            android:label="Ritmo"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Resultados1"
+            android:label="Resultados"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Resultados2"
+            android:label="Resultados"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Resultados3"
+            android:label="Resultados"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Resultados4"
+            android:label="Resultados"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

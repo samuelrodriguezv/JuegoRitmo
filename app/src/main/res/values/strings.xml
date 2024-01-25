@@ -1,0 +1,15 @@
+<resources>
+
+    <string-array name="Jugadores">
+        <item>1 jugador</item>
+        <item>2 jugadores</item>
+        <item>3 jugadores</item>
+        <item>4 jugadores</item>
+    </string-array>
+
+    <string name="jugador1">J1</string>
+    <string name="jugador2">J2</string>
+    <string name="jugador3">J3</string>
+    <string name="jugador4">J4</string>
+
+</resources>

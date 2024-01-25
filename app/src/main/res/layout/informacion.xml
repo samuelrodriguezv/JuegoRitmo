@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Esta aplicación consiste en un test de habilidad musical.
+        \n\nAl iniciar la partida, se pedirá el número de jugadores y de rondas que se va a jugar.
+        \n\nCuando empiece, el botón 'Iniciar' reproducirá un ritmo durante unos segundos.
+        \nUna vez se termine, el jugador deberá imaginarse este ritmo de nuevo y pulsar el botón del jugador cuando crea que el ritmo termina.
+        \n\nA continuación muestro un ejemplo:"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/negro"
+        tools:ignore="MissingConstraints"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/segundos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ejemplo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

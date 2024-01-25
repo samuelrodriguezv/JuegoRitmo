@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00D1BB</color>
+    <color name="colorPrimaryDark">#0094AE</color>
+    <color name="colorAccent">#DC1F64</color>
+    <color name="button">#A64343</color>
+    <color name="player1">#6BEEFF</color>
+    <color name="player2">#FF5D51</color>
+    <color name="player3">#7AFF80</color>
+    <color name="player4">#FFC46D</color>
+    <color name="empate">#FFF8B7</color>
+    <color name="negro">#000000</color>
+    <color name="gris">#474747</color>
+    <color name="blanco">#FFFFFF</color>
+</resources>
